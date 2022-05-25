@@ -1,21 +1,3 @@
-// Wire Slave Sender
-// by Nicholas Zambetti <http://www.zambetti.com>
-
-// Demonstrates use of the Wire library
-// Sends data as an I2C/TWI slave device
-// Refer to the "Wire Master Reader" example for use with this
-
-// Created 29 March 2006
-
-// This example code is in the public domain.
-
-/* This code works with MAX30102 + 128x32 OLED i2c + Buzzer and Arduino UNO
-   It's displays the Average BPM on the screen, with an animation and a buzzer sound
-   everytime a heart pulse is detected
-   It's a modified version of the HeartRate library example
-   Refer to www.surtrtech.com for more details or SurtrTech YouTube channel
-*/
-
 #include <Wire.h>
 //-----------------------------------------------------------------------
 #include "MAX30105.h" //max3010x library
